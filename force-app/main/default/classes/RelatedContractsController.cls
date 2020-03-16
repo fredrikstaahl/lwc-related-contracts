@@ -10,7 +10,7 @@ private static String SOBJECT_NAME_ACCOUNT = 'Account';
 private static String SOBJECT_NAME_OPPORTUNITY = 'Opportunity';
 
 @AuraEnabled (cacheable=true)
-public static List<Contract> getRelatedContracts(Id recordId, String sObjectName) {
+public static List<Contract> getRelatedContracts(Id recordId, String sObjectName, Boolean onlyActivatedContracts) {
 	Id accountId;
 	Id parentAccountId;
 	String registrationNo;
@@ -33,12 +33,22 @@ public static List<Contract> getRelatedContracts(Id recordId, String sObjectName
 		parentAccountId = acc.ParentId;
 	}
 
-	List<Contract> contractResult = [
-		SELECT Id, StartDate, EndDate, Name, Account.Name
-		FROM Contract
-		WHERE AccountId = : accountId OR AccountId = : parentAccountId
-	];
-	return contractResult;
+	List<Contract> contractList = new List<Contract>();
+	if (onlyActivatedContracts) {
+		contractList = [
+			SELECT Id, StartDate, EndDate, Name, Account.Name
+			FROM Contract
+			WHERE (AccountId = : accountId OR AccountId = : parentAccountId)
+			AND Status = 'Activated'
+		];
+	} else {
+		contractList = [
+			SELECT Id, StartDate, EndDate, Name, Account.Name
+			FROM Contract
+			WHERE (AccountId = : accountId OR AccountId = : parentAccountId)
+		];
+	}
+	return contractList;
 }
 
 @AuraEnabled

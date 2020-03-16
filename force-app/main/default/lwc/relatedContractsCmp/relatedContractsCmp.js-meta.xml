@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>46.0</apiVersion>
     <description>Related Contracts Cmp</description>
@@ -8,7 +8,30 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__RecordPage">
-            <property name="sObjectName" type="String" datasource="Account, Opportunity" required="true" default="Opportunity" />
+            <property
+        name="sObjectName"
+        label="Record detail page type (sObjectName)"
+        type="String"
+        datasource="Account, Opportunity"
+        required="true"
+        default="Opportunity"
+        description="Choose the sObjectName of the record detail page type that you will use this component on."
+      />
+            <property
+        name="description"
+        label="Component Description"
+        type="String"
+        required="false"
+        placeholder="Add your description here"
+        description="This text will be used as a description on the component, set to blank if no description is needed on the component."
+      />
+      <property
+        name="showOnlyActivatedContracts"
+        label="Show only activated contracts"
+        type="Boolean"
+        default="true"
+        description="Set this to checked if only activated contracts should be shown in the list, if unchecked, contracts with any status will be shown"
+      />
             <objects>
                 <object>Account</object>
                 <object>Opportunity</object>

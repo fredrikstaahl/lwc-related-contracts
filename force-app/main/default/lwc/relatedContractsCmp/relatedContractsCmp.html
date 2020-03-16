@@ -15,7 +15,10 @@
         </div>
       </template>
       <template if:true={contractsFound} class="slds-m-around--medium">
-        <p>{labels.infoText}</p>
+        <div class="sld-m-around_medium">
+          <p>{description}</p>
+        </div>
+
         <lightning-datatable
           key-field="Id"
           columns={columns}

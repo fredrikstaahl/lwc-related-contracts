@@ -12,7 +12,7 @@ static void testGetRelatedContracts_onSameAccount() {
 	cont.Status = 'Draft';
 	insert cont;
 
-	List<Contract> contractList = RelatedContractsController.getRelatedContracts(acc.Id, 'Account');
+	List<Contract> contractList = RelatedContractsController.getRelatedContracts(acc.Id, 'Account', false);
 	Contract actualContract = contractList[0];
 	Id expectedContractId = cont.Id;
 
@@ -35,7 +35,10 @@ static void testGetRelatedContracts_onParentAccount() {
 	cont.Status = 'Draft';
 	insert cont;
 
-	List<Contract> contractList = RelatedContractsController.getRelatedContracts(acc.Id, 'Account');
+	cont.Status = 'Activated';
+	update cont;
+
+	List<Contract> contractList = RelatedContractsController.getRelatedContracts(acc.Id, 'Account', false);
 	Contract actualContract = contractList[0];
 	Id expectedContractId = cont.Id;
 
@@ -70,7 +73,7 @@ static void testGetRelatedContracts_onParentAndSameAccount() {
 	cont3.Status = 'Draft';
 	insert new List<Contract> {cont, cont2, cont3};
 
-	List<Contract> contractList = RelatedContractsController.getRelatedContracts(acc.Id, 'Account');
+	List<Contract> contractList = RelatedContractsController.getRelatedContracts(acc.Id, 'Account', false);
 	System.assertEquals(contractList.size(), 2);
 
 	List<String> contractIds = new List<String>();
