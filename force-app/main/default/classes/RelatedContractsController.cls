@@ -13,7 +13,6 @@ private static String SOBJECT_NAME_OPPORTUNITY = 'Opportunity';
 public static List<Contract> getRelatedContracts(Id recordId, String sObjectName) {
 	Id accountId;
 	Id parentAccountId;
-	Id engagementAccountId;
 	String registrationNo;
 
 	if (sObjectName == SOBJECT_NAME_OPPORTUNITY) {
