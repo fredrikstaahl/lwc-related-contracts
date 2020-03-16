@@ -1,0 +1,48 @@
+<!--
+ - Created by fredrikstahl on 2019-11-06.
+ -->
+
+<!-- Related Contracts Cmp -->
+<template>
+  <lightning-card title={labels.cardHeader} icon-name="standard:contract">
+    <div class="slds-m-around--medium">
+      <template if:true={isLoading}>
+        <div class="slds-m-around_medium">
+          <lightning-spinner
+            alternative-text="Loading.."
+            size="medium"
+          ></lightning-spinner>
+        </div>
+      </template>
+      <template if:true={contractsFound} class="slds-m-around--medium">
+        <p>{labels.infoText}</p>
+        <lightning-datatable
+          key-field="Id"
+          columns={columns}
+          data={contractData}
+          max-row-selection="1"
+          onrowselection={handleContractListRowSelection}
+          hide-checkbox-column={IsAccountPage}
+          selected-rows={preSelectedRows}
+        >
+        </lightning-datatable>
+        <template if:false={IsAccountPage}>
+          <div class="slds-m-around--medium">
+            <lightning-button
+              variant="brand"
+              disabled={submitButtonDisabled}
+              onclick={handleSetContractButtonClicked}
+              label={labels.submitButtonText}
+            ></lightning-button>
+          </div>
+        </template>
+      </template>
+    </div>
+    <template if:false={contractsFound}>
+      <div class="slds-m-around_medium">
+        <p>{labels.noneFoundText}</p>
+      </div>
+    </template>
+    <template if:true={showConfirmationModal}> </template>
+  </lightning-card>
+</template>

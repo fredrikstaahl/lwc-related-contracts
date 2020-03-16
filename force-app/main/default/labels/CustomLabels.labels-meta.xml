@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>BBC_ACCOUNT_ALRDYEXISTS_MODAL_CANCEL_BTN_TXT</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account already exists modal cancel button text</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>BBC_ACCOUNT_ALRDYEXISTS_MODAL_CONTENT</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account already exists modal content</shortDescription>
+        <value>The account already exists in Salesforce</value>
+    </labels>
+    <labels>
+        <fullName>BBC_ACCOUNT_ALRDYEXISTS_MODAL_HEADING</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account already exists modal heading</shortDescription>
+        <value>Existing account</value>
+    </labels>
+    <labels>
+        <fullName>BBC_ACCOUNT_UPDATE_SUCCEEDED</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account was successfully updated text</shortDescription>
+        <value>Account was successfully updated</value>
+    </labels>
+    <labels>
+        <fullName>BBC_SEARCH_FOR_ACTIVE_COMPANIES</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search for active companies text</shortDescription>
+        <value>Search for active companies only</value>
+    </labels>
+    <labels>
+        <fullName>BBC_ACCOUNT_ALRDYEXISTS_MODAL_SUB_BTN_TXT</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Account already exists modal submit btn text</shortDescription>
+        <value>Navigate to Account page</value>
+    </labels>
+    <labels>
+        <fullName>BBC_CARD_HEADING</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Lightning Card heading text</shortDescription>
+        <value>Search for Companies in Bisnode</value>
+    </labels>
+    <labels>
+        <fullName>BBC_CREATE_ACCOUNT_MODAL_CANCEL_BTN_TXT</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create account modal cancel btn text</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>BBC_CREATE_ACCOUNT_MODAL_CONTENT</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create account modal content</shortDescription>
+        <value>Are you sure you want to create the following account</value>
+    </labels>
+    <labels>
+        <fullName>BBC_CREATE_ACCOUNT_MODAL_HEADING</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create account modal heading</shortDescription>
+        <value>Create account</value>
+    </labels>
+    <labels>
+        <fullName>BBC_CREATE_ACCOUNT_MODAL_SUB_BTN_TXT</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create account modal submit btn text</shortDescription>
+        <value>Create account</value>
+    </labels>
+    <labels>
+        <fullName>BBC_SELECT_ACCOUNT_TYPE</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select account type text</shortDescription>
+        <value>Worksite Type</value>
+    </labels>
+    <labels>
+        <fullName>BBC_ACCOUNT_TYPE_BRANCH_OFFICE</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Branch office</shortDescription>
+        <value>Branch office</value>
+    </labels>
+    <labels>
+        <fullName>BBC_ACCOUNT_TYPE_HEAD_OFFICE</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Head office</shortDescription>
+        <value>Head office</value>
+    </labels>
+    <labels>
+        <fullName>BBC_ACCOUNT_TYPE_ALL</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>All types</shortDescription>
+        <value>All types</value>
+    </labels>
+    <labels>
+        <fullName>BBC_OAUTH_ERROR</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error shown when authentication with Bbc fails</shortDescription>
+        <value>Authentication to the service failed, please contact the Salesforce administrator.</value>
+    </labels>
+    <labels>
+        <fullName>BBC_RESULT_HEADING</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text shown above the result table</shortDescription>
+        <value>Search result</value>
+    </labels>
+    <labels>
+        <fullName>BBC_SEARCHED_FOR_TEXT</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Text displayed below the search field</shortDescription>
+        <value>You searched for</value>
+    </labels>
+    <labels>
+        <fullName>BBC_SEARCH_LABEL</fullName>
+        <categories>BBC_APP</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search component search-input label</shortDescription>
+        <value>Search a company name, a company number and/or a city</value>
+    </labels>
+    <labels>
+        <fullName>CUSTOMER_API_ENDPOINT</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Endpoint method for customer api though mulesoft</shortDescription>
+        <value>/customers?system=T5</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_CRITERIA_NAME_APPLIED_CREDIT</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>appliedCredit</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_CRITERIA_NAME_COMPANYREGNO</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>countryRegNumber</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_CRITERIA_NAME_CREDIT_TYPE</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>creditType</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_AUTH_HEADER_CUSTOMER_CODE</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support auth header</shortDescription>
+        <value>customerCode</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_AUTH_HEADER_CUSTOMER_CODE_OWNER</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support auth header</shortDescription>
+        <value>customerCodeOwner</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_AUTH_HEADER_CUSTOMER_REFERENCE</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support auth header</shortDescription>
+        <value>customerReference</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_AUTH_HEADER_DELIVERY_ADDRESS</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support auth header</shortDescription>
+        <value>deliveryAddress</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_AUTH_HEADER_USERID</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support auth header</shortDescription>
+        <value>userId</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_AUTH_HEADER_USER_PASSWORD</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support auth header</shortDescription>
+        <value>userPassword</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_HEADER_FROM_COUNTRY</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support request header</shortDescription>
+        <value>fromCountry</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_HEADER_LANGUAGE</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support request header</shortDescription>
+        <value>language</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_REQUEST_HEADER_TO_COUNTRY</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support request header</shortDescription>
+        <value>toCountry</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_RESPONSE_DATA_PROPERTY_APPROVED_CREDIT</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>approvedCreditThousands</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_RESPONSE_DATA_PROPERTY_DECISION_DESC</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>originalDecisionDescription</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_RESPONSE_DATA_PROPERTY_DNBNR</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>dunsNumber</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_RESPONSE_DATA_PROPERTY_RATING_CODE</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>ratingCode</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_RESPONSE_TYPE_ACC_INFO</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>generalCompanyData</value>
+    </labels>
+    <labels>
+        <fullName>DECISION_SUPPORT_RESPONSE_TYPE_DECISION</fullName>
+        <categories>API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decision support response data</shortDescription>
+        <value>decision</value>
+    </labels>
+    <labels>
+        <fullName>DS_CREDITINFO_ACTION_BUTTON_TEXT</fullName>
+        <categories>Decision Support</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The button text for the button in lwc dsNewCreditCheck</shortDescription>
+        <value>Get Credit Rating</value>
+    </labels>
+    <labels>
+        <fullName>DS_CREDITINFO_ACTION_HEADER</fullName>
+        <categories>Decision Support</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header of the update action for uodating credit info</shortDescription>
+        <value>Credit Information</value>
+    </labels>
+    <labels>
+        <fullName>DS_CREDITINFO_ERROR_HEADER</fullName>
+        <categories>Decision Support</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Toast error header</shortDescription>
+        <value>Something went wrong</value>
+    </labels>
+    <labels>
+        <fullName>DS_CREDITINFO_SUCCESS</fullName>
+        <categories>Decision Support</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Message content for success toast when info has been fetched</shortDescription>
+        <value>Credit Info was successfully retrieved.</value>
+    </labels>
+    <labels>
+        <fullName>DS_CREDITINFO_SUCCESS_HEADER</fullName>
+        <categories>Decision Support</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header for success toast message</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>GENERATE_DOCUMENTS_COMBOBOX_LABEL</fullName>
+        <categories>Generate documents with template labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Label for generate documents quickaction combobox</shortDescription>
+        <value>Template</value>
+    </labels>
+    <labels>
+        <fullName>GENERATE_DOCUMENTS_COMBOBOX_PLACEHOLDER</fullName>
+        <categories>Generate documents with template labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Label for generate documents quickaction combobox placeholder</shortDescription>
+        <value>Choose a template</value>
+    </labels>
+    <labels>
+        <fullName>GENERATE_DOCUMENTS_SUBMIT_BTN_TEXT</fullName>
+        <categories>Generate documents with template labels</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Label for generate documents quickaction submit button text</shortDescription>
+        <value>Generate document</value>
+    </labels>
+    <labels>
+        <fullName>MODAL_CANCEL</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>modal cancel button text</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>MODAL_SUBMIT</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Modal sumbit button text</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_COLUMN_CONTRACT</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>column name</shortDescription>
+        <value>Contract</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_COLUMN_ENDDATE</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>column name end date</shortDescription>
+        <value>End Date</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_COLUMN_NUMBER_OF_PRICES</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>column name number of prices</shortDescription>
+        <value># of Prices</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_COLUMN_STARTDATE</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>column name start date</shortDescription>
+        <value>Start Date</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_HEADER</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header for Related contract lwc</shortDescription>
+        <value>Related Contracts</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_MODAL_CONTENT</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>modal content</shortDescription>
+        <value>Are you sure you want to use this Contract on this Opportunity? If contracted prices exists on the contract, the product prices on the Opportunity will be adjusted accordingly.</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_MODAL_HEADER</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>modal header</shortDescription>
+        <value>Use Contract</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_NONE_FOUND</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>related contracts text to show when no found</shortDescription>
+        <value>No contracts found</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_SUBMIT_BUTTON_TEXT</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>related contracts submit button text</shortDescription>
+        <value>Use this Contract on this Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_SUCCESS_TOAST_MESSAGE</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>toast message</shortDescription>
+        <value>Opportunity was updated with the selected contract</value>
+    </labels>
+    <labels>
+        <fullName>RELATED_CONTRACTS_TEXT</fullName>
+        <categories>Related contracts</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>related contracts text</shortDescription>
+        <value>The following contracts are related to the account or its hierarchy, choose a contract and click on the button below to use the selected contract on this opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>TOAST_HEADER_FAIL</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>generic toast header for fail message</shortDescription>
+        <value>Something went wrong</value>
+    </labels>
+    <labels>
+        <fullName>TOAST_HEADER_SUCCESS</fullName>
+        <categories>General</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>generic toast header for success message</shortDescription>
+        <value>Success</value>
+    </labels>
+</CustomLabels>
